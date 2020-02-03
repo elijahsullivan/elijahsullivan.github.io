@@ -1,0 +1,30 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@supports (font-variation-settings: normal) {
+  .inter { font-family: 'Inter var', sans-serif; }
+}
+
+.inter { font-family: 'Inter', sans-serif; }
+
+.flex { display: flex; }
+
+.align-center { align-items: center; }
+
+.justify-center { justify-content: center; }
+
+.h100vh { height: 100vh; }
+
+.f1 { font-size: 3rem; }
+
+.fw3 { font-weight: 300; }
+
+.ttu { text-transform: uppercase; }
+
+.tracked { letter-spacing: .5rem; }
+
